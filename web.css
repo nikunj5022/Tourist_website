@@ -1,0 +1,127 @@
+
+
+  .heading {
+      color: white;
+      text-align: center;
+      padding-top: 120px;
+   }
+
+.image {
+   background-color: #490D40;
+   background: url("image2.jpg") no-repeat center center;
+   background-size: cover;
+   height: 300px;
+    margin-top: -20px;}
+    
+.imagehotel {
+   background-color: #490D40;
+   background: url("hotel1.html") no-repeat center center;
+   background-size: cover;
+   height: 300px;
+    margin-top: -20px;}
+    
+    input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}
+    
+    .center{
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    form {
+  background:#fff;
+  border-radius:6px;
+  padding:20px;
+  padding-top:30px;
+  width:300px;
+  margin:50px auto;
+  box-shadow:15px 15px 0px rgba(0,0,0,.1);
+}
+.btn {
+  position:relative;
+  width:100%;
+  padding:20px;
+  border-radius:6px;
+  border:0;
+  background:#f26964;
+  font-size:1.2em;
+  color:#fff;
+  text-shadow:1px 1px 0px rgba(0,0,0,.1);
+  box-shadow:0px 3px 0px #c1524e;
+}
+.fb {
+  margin-top:15px;
+  background:#3b5998;
+  box-shadow:0px 3px 0px #2c416e;
+}
+.google {
+  background:#db4a39;
+  box-shadow:0px 3px 0px #b93f31;
+}
+    
+    .pad{
+        padding-left: 20px;
+    }    
+    
+ .imagetext{
+      position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}   
+    
+.image3{
+   background-color: #490D40;
+   background: url("home1.jpg") no-repeat center center;
+   background-size: cover;
+   height: 300px;
+
+    margin-top: -20px;}
+
+
+
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
